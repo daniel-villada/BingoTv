@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+} 
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+ *{
+     text-align: center;
+    }
+
+    html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+     
+ .table {
+    margin: auto;
+    border-collapse: collapse;
+    margin-left: 20px;
+
+   font-size: 40px;
+    border: 2px solid;
+    margin-bottom: 20px;
+   } 
+ /*  table th, table td {
+    border: 1px solid #dfdfdf;
+       padding: 5px; 
+   } 
+*/ 
+
+.one{
+    width: 30%;
+    height: 200px;
+}
+ 
+
+
+#butt button{
+    margin: auto;
+width:100%;
+border: 1px solid;
+font-size: 40px;
+cursor: pointer;
+   }
+
+
+ .one, .table{
+     float:left;
+     margin-top: 30px;
+ }  
+ 
+
+.button:hover {
+    color: rgb(110, 160, 241) !important;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+    transition: all 0.2s ease;
+    background: rgb(173, 115, 115);
+  }
+
+
+body{
+    background: -webkit-linear-gradient(rgb(231, 192, 120), rgb(136, 53, 67));
+    background: -moz-linear-gradient(rgb(63, 51, 83), rgb(158, 96, 106));
+    background: -o-linear-gradient(orange, pink);
+}
+
+video{
+    width: 100vh;
+    border-radius: 20px;
+}
+
+
+
+thead{
+    cursor: pointer;
+}
+
+
+
+/*main{
+
+	width: 90%;
+	margin:20px auto;
+	max-width: 1000px;
+   
+
+
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.parrafo{
+    font-size: 20px;
+    text-align: justify;
+}
+
+main .articles {
+	width: 68.5%;
+	float:left;
+	margin-right:1.5%;
+    margin-top: 50px;
+
+}
+
+main .articles article {
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 30px;
+}
+
+aside {
+	width:30%;
+    background:purple;
+	float:left;
+	padding: 20px;
+	box-sizing: border-box;
+    margin-top: 14px;
+    font-size: 20px;
+    color: #fff
+    
+
+
+} */
+
